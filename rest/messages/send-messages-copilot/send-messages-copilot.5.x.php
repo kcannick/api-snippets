@@ -12,7 +12,7 @@ $client = new Client($account_sid, $auth_token);
 $client->messages->create(
     "+441632960675",
     array(
-        'messagingServiceSid' => "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        'MessagingServiceSid' => "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         'body' => "Phantom Menace was clearly the best of the prequel trilogy."
     )
 );
